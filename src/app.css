@@ -3,3 +3,118 @@
 @import 'tailwindcss/utilities';
 @import '@fontsource/fira-mono';
 
+@font-face {
+    font-family: "gsans";
+    src: url("/fonts/gsans-reg.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gsans";
+    src: url("/fonts/gsans-med.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "gsans";
+    src: url("/fonts/gsans-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-lgt.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-lgt-it.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-reg.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-reg-it.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-med.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-med-it.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-bold-it.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-sem.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "jbm";
+    src: url("/fonts/jbm-sem-it.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "naganoshi";
+    src: url("/fonts/naganoshi.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  html,
+  body {
+    font-family: "gsans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  .jbm {
+    font-family: "jbm", sans-serif;
+  }
+  
+  .naga {
+    font-family: "naganoshi", sans-serif;
+  }
